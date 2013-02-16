@@ -15,8 +15,6 @@ public class Main extends ContactManagerImp{
 			// Keep program running until user shuts it down.
 			while (true) {
 
-				System.out.println(meetingList.size());
-
 				System.out.println("\nWhat would you like to do?");
 				System.out.println("1) Add Contact");
 				System.out.println("2) Get Contact");

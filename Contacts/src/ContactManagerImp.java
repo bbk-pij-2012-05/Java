@@ -112,7 +112,7 @@ public class ContactManagerImp implements ContactManager {
 			br.close();
 		} catch (NullPointerException | ArrayIndexOutOfBoundsException
 				| IOException | ParseException IOE) {
-			IOE.printStackTrace();
+			//Don't do anything if the file isn't there.
 		}
 	}
 
